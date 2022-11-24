@@ -1,0 +1,10 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: linear-gradient(
+    to right,
+    rgb(38, 169, 38),
+    rgb(162, 217, 162)
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
