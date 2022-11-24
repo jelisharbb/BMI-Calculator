@@ -8,8 +8,16 @@ button.addEventListener("click", () => {
     weightStatus = false;
 
   if (isNaN(height) || height <= 0) {
-    document.getElementById("height-error").innerHTML = "*Invalid height";
+    document.getElementById("height-error").innerHTML = "Invalid height";
   } else {
     document.getElementById("height-error").innerHTML = "";
+    heightStatus = true;
+  }
+
+  if (isNaN(weight) || weight <= 0) {
+    document.getElementById("weight-error").innerHTML = "Invalid weight";
+  } else {
+    document.getElementById("weight-error").innerHTML = "";
+    weightStatus = true;
   }
 });
