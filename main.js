@@ -35,5 +35,8 @@ button.addEventListener("click", () => {
     } else {
       result.innerHTML = "BMI: " + bmi < br > "Weight Status: Extremely obese";
     }
+  } else {
+    alert("The form has error.");
+    result.innerHTML = "";
   }
 });
