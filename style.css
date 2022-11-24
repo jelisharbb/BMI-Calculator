@@ -5,12 +5,28 @@ body {
   background-image: linear-gradient(to right, #749f5b, #c7ddb5);
   background-repeat: no-repeat;
   font-family: Verdana;
-  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #32571c;
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin: 0 auto;
+}
+
+p.banner {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  margin: 10px auto;
+  color: #32571c;
 }
 
 .container {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
@@ -44,6 +60,7 @@ span {
 }
 
 button {
+  width: 47%;
   background-color: rgb(237, 237, 237);
   font-size: 25px;
   padding: 8px;
@@ -63,6 +80,16 @@ button:hover {
 
 p {
   font-size: 23px;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #223b13;
 }
 
 @media screen and (max-width: 600px) {
