@@ -20,4 +20,8 @@ button.addEventListener("click", () => {
     document.getElementById("weight-error").innerHTML = "";
     weightStatus = true;
   }
+
+  if (heightStatus && weightStatus) {
+    const bmi = weight / ((height * height) / 10000).toFixed(2);
+  }
 });
