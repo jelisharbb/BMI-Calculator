@@ -13,7 +13,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 25px;
+  padding: 40px;
   border-radius: 15px;
 }
 
@@ -21,10 +21,23 @@ input {
   outline: none;
   border: none;
   padding: 6px;
+  background: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 25px;
+}
+
+::placeholder {
+  color: rgb(198, 197, 197);
+}
+
+span {
+  color: rgb(180, 66, 66);
 }
 
 button {
   background-color: white;
+  font-size: 25px;
   padding: 6px;
   border: none;
   border-radius: 7px;
