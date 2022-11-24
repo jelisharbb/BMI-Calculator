@@ -1,6 +1,7 @@
-let button = document.getElementById("button");
+let calculate = document.getElementById("calculate");
+let clear = document.getElementById("clear");
 
-button.addEventListener("click", () => {
+calculate.addEventListener("click", () => {
   const height = parseInt(document.getElementById("height").value);
   const weight = parseInt(document.getElementById("weight").value);
   const result = document.getElementById("result");
@@ -44,4 +45,8 @@ button.addEventListener("click", () => {
     alert("The form has error.");
     result.innerHTML = "";
   }
+});
+
+clear.addEventListener("click", () => {
+  window.location.reload();
 });
