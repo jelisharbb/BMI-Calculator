@@ -25,15 +25,20 @@ button.addEventListener("click", () => {
     const bmi = (weight / ((height * height) / 10000)).toFixed(2);
 
     if (bmi < 18.5) {
-      result.innerHTML = "BMI: " + bmi + "<br>Weight Status: Underweight";
+      result.innerHTML =
+        "<b>BMI:</b> " + bmi + "<br><b>Weight Status</b>: Underweight";
     } else if (bmi >= 18.5 && bmi <= 24.9) {
-      result.innerHTML = "BMI: " + bmi + "<br>Weight Status: Normal";
+      result.innerHTML =
+        "<b>BMI:</b> " + bmi + "<br><b>Weight Status</b>: Normal";
     } else if (bmi >= 25 && bmi <= 29.9) {
-      result.innerHTML = "BMI: " + bmi + "<br>Weight Status: Overweight";
+      result.innerHTML =
+        "<b>BMI:</b> " + bmi + "<br><b>Weight Status</b>: Overweight";
     } else if (bmi >= 30 && bmi <= 34.9) {
-      result.innerHTML = "BMI: " + bmi + "<br>Weight Status: Obese";
+      result.innerHTML =
+        "<b>BMI:</b> " + bmi + "<br><b>Weight Status</b>: Obese";
     } else {
-      result.innerHTML = "BMI: " + bmi + "<br>Weight Status: Extremely obese";
+      result.innerHTML =
+        "<b>BMI:</b> " + bmi + "<br><b>Weight Status</b>: Extremely obese";
     }
   } else {
     alert("The form has error.");
