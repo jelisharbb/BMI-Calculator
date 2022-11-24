@@ -44,6 +44,13 @@ input {
   font-size: 25px;
 }
 
+input:focus-visible {
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #c7ddb5;
+}
+
 ::placeholder {
   color: rgb(198, 197, 197);
 }
