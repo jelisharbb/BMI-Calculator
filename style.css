@@ -5,6 +5,7 @@ body {
   background-image: linear-gradient(to right, #749f5b, #c7ddb5);
   background-repeat: no-repeat;
   font-family: Verdana;
+  color: white;
 }
 
 .container {
@@ -32,7 +33,9 @@ input {
 }
 
 span {
-  color: rgb(180, 66, 66);
+  color: rgb(252, 111, 111);
+  display: block;
+  padding-top: 8px;
 }
 
 button {
@@ -44,4 +47,8 @@ button {
   display: block;
   margin-top: 5%;
   cursor: pointer;
+}
+
+#output {
+  font-size: 20px;
 }
