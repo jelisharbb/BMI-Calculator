@@ -59,3 +59,28 @@ button:hover {
 p {
   font-size: 23px;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  input {
+    padding: 4px;
+    font-size: 15px;
+  }
+
+  span {
+    padding-top: 5px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 4px;
+    margin-top: 3%;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
