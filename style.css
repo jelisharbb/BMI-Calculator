@@ -38,10 +38,15 @@ span {
   padding-top: 8px;
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
 button {
   background-color: rgb(237, 237, 237);
   font-size: 25px;
-  padding: 6px;
+  padding: 8px;
   border: none;
   border-radius: 7px;
   display: inline-block;
