@@ -85,7 +85,7 @@ p {
 
 .footer {
   position: fixed;
-  bottom: 10px;
+  bottom: 15px;
   width: 100%;
   text-align: center;
   font-size: 12px;
@@ -93,6 +93,17 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin: 0 auto;
+  }
+
+  p.banner {
+    font-size: 15px;
+    margin: 10px auto;
+  }
   .container {
     padding: 20px;
   }
@@ -114,5 +125,10 @@ p {
 
   p {
     font-size: 15px;
+  }
+
+  .footer {
+    bottom: 15px;
+    font-size: 10px;
   }
 }
