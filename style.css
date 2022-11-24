@@ -16,3 +16,19 @@ body {
   padding: 25px;
   border-radius: 15px;
 }
+
+input {
+  outline: none;
+  border: none;
+  padding: 6px;
+}
+
+button {
+  background-color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 7px;
+  display: block;
+  margin-top: 5%;
+  cursor: pointer;
+}
