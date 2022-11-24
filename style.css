@@ -1,10 +1,18 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-image: linear-gradient(
-    to right,
-    rgb(38, 169, 38),
-    rgb(162, 217, 162)
-  );
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  background-image: linear-gradient(to right, #749f5b, #c7ddb5);
+  background-repeat: no-repeat;
+  font-family: Verdana;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  border-radius: 15px;
 }
