@@ -9,5 +9,7 @@ button.addEventListener("click", () => {
 
   if (isNaN(height) || height <= 0) {
     document.getElementById("height-error").innerHTML = "*Invalid height";
+  } else {
+    document.getElementById("height-error").innerHTML = "";
   }
 });
